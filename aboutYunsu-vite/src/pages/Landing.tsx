@@ -12,8 +12,8 @@ export const Landing = () => {
     
       const handleMouseMove = (e : any) => {
         setCursorPos({
-          x: e.clientX,
-          y: e.clientY,
+          x: e.clientX - window.innerWidth/1.5,
+          y: e.clientY - window.innerHeight/1.5,
         })
         // const {x, y} = cursorPos;
         
