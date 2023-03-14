@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     border: 0;
     font-size: 100%;
     font: inherit;
+    color: 1e1e1e;
     vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */
