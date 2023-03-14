@@ -31,7 +31,7 @@ export const 컨테이너 = 스타일.div`
         position: absolute;
         margin: auto;
         width: 60%;
-
+        transform-origin: center center;
       
     }
 `;

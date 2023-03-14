@@ -12,18 +12,21 @@ export const Landing = () => {
     
       const handleMouseMove = (e : any) => {
         setCursorPos({
-          x: e.clientX - window.innerWidth/1.5,
-          y: e.clientY - window.innerHeight/1.5,
+          x: e.clientX - window.innerWidth/2,
+          y: e.clientY - window.innerHeight/2,
         })
         // const {x, y} = cursorPos;
-        
+        setEyeballPos({
+          x: cursorPos.x / 13,
+          y: cursorPos.y / 13,
+        })
         // console.log('props:',cursorPos.x, cursorPos.y, cursorPos, typeof(cursorPos));  
       }
 
     return (
         <S.그리드컨테이너>
             <S.백그라운드베이스 onMouseMove={handleMouseMove}>
-                <삼눈이 props={cursorPos}/>
+                <삼눈이 props={eyeballPos}/>
             </S.백그라운드베이스>
         </S.그리드컨테이너>
     );
