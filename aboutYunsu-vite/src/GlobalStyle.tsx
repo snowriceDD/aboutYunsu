@@ -55,5 +55,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   html {
     font-size: 16px;
+    font-family: 'Kulim Park';
+    font-style: normal;
   }
 `;

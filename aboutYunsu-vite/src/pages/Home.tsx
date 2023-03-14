@@ -1,10 +1,20 @@
-import { Navbar } from "@/components/Navbar";
+import { LandingSVG } from "@/assets/LandingSVG";
+import { HomeSVG } from '@/assets/HomeSVG';
+import * as S from "@/components/styled";
+import { useState, useEffect, useRef } from "react";
 
 export const Home = () => {
   return (
     <div>
-      <Navbar />
-      <h1>Home Page</h1>
+      <S.그리드컨테이너>
+            <S.백그라운드베이스 >
+              <S.컨테이너>
+            <HomeSVG />
+            
+              
+            </S.컨테이너>
+            </S.백그라운드베이스>
+        </S.그리드컨테이너>
     </div>
   );
 };

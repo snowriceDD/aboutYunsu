@@ -8,19 +8,16 @@ import { 삼눈이 } from "@/components/삼눈이";
 export const Landing = () => {
     const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
     const [eyeballPos, setEyeballPos] = useState({ x: 0, y: 0 }); 
-    const eyeballRef = useRef(null);
     
       const handleMouseMove = (e : any) => {
         setCursorPos({
           x: e.clientX - window.innerWidth/2,
           y: e.clientY - window.innerHeight/2,
         })
-        // const {x, y} = cursorPos;
         setEyeballPos({
           x: cursorPos.x / 13,
           y: cursorPos.y / 13,
         })
-        // console.log('props:',cursorPos.x, cursorPos.y, cursorPos, typeof(cursorPos));  
       }
 
     return (

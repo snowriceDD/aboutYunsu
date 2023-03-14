@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 export const LandingSVG = (props: any) => (
   <svg
     id="eb0RPcv3w6l1"
