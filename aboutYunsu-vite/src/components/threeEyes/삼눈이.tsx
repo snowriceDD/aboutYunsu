@@ -1,6 +1,5 @@
 import { EyeSVG } from "@/assets/EyeSVG";
 import { LandingSVG } from "@/assets/LandingSVG";
-import { useEffect, useRef, useState } from "react";
 import { 컨테이너 } from "./styled";
 
 export const 삼눈이 = (props : any) => {

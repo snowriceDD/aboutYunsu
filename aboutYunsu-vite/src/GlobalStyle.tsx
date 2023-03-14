@@ -58,4 +58,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Kulim Park';
     font-style: normal;
   }
+  body {
+    background-color: #1e1e1e;
+  }
 `;

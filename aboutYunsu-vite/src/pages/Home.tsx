@@ -1,6 +1,6 @@
 import { LandingSVG } from "@/assets/LandingSVG";
 import { HomeSVG } from '@/assets/HomeSVG';
-import * as S from "@/components/styled";
+import * as S from "@/components/threeEyes/styled";
 import { useState, useEffect, useRef } from "react";
 
 export const Home = () => {
@@ -9,9 +9,7 @@ export const Home = () => {
       <S.그리드컨테이너>
             <S.백그라운드베이스 >
               <S.컨테이너>
-            <HomeSVG />
-            
-              
+            <HomeSVG />  
             </S.컨테이너>
             </S.백그라운드베이스>
         </S.그리드컨테이너>
