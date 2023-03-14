@@ -17,22 +17,44 @@ export const 백그라운드베이스 = 스타일.div`
     width: 100vw;
     height: 100vh;
     background: 1E1E1E;
+
+    .landing_text {
+        position: relative;
+        top: 25%;
+        text-align: center;
+        margin: auto;
+        color: white;
+        font-family: 'Kulim Park';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 0;
+    }
+    .landing_text2 {
+        position: fixed;
+        bottom: 5%;
+        right: 3%;
+        margin: auto;
+        color: white;
+        font-family: 'Kulim Park';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 0;
+    }
 `;
 
 export const 컨테이너 = 스타일.div`
     display: flex;
     margin: auto;
     width: 60vw;
-    // max-width: 720px;
     height: 100vh;
 
     .eye-styled {
-        transition: .3s;
+        transition: transform 0.3s ease-in-out;
         position: absolute;
         margin: auto;
         width: 60%;
-        transform-origin: center center;
-      
     }
 `;
 

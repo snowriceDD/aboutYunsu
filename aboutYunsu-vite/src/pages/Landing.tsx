@@ -26,7 +26,9 @@ export const Landing = () => {
     return (
         <S.그리드컨테이너>
             <S.백그라운드베이스 onMouseMove={handleMouseMove}>
+                <div className="landing_text">Develop + Design</div>
                 <삼눈이 props={eyeballPos}/>
+                <div className="landing_text2">START ↩</div>
             </S.백그라운드베이스>
         </S.그리드컨테이너>
     );
