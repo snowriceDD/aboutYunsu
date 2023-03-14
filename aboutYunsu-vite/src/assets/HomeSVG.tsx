@@ -41,36 +41,35 @@ export const HomeSVG = () => {
           fill="#8fff00"
         />
         <text
-    x="400"
-    y="300"
-    text-anchor="middle"
-    alignment-baseline="middle"
-    fill="#000000"
-    style={{ fontSize: '1.3rem', fontWeight: '700'}}
-  >
-    Works
-  </text>
-  <text
-    x="188.350388"
-    y="300"
-    text-anchor="middle"
-    alignment-baseline="middle"
-    fill="#000000"
-    style={{ fontSize: '1.3rem', fontWeight: '700'}}
-  >
-    About
-  </text>
-  <text
-    x="611.649612"
-    y="300"
-    text-anchor="middle"
-    alignment-baseline="middle"
-    fill="#000000"
-    style={{ fontSize: '1.3rem', fontWeight: '700'}}
-  >
-    Experience
-  </text>
-
+            x="400"
+            y="300"
+            text-anchor="middle"
+            alignment-baseline="middle"
+            fill="#000000"
+            style={{ fontSize: '1.3rem', fontWeight: '700'}}
+        >
+            Works
+        </text>
+        <text
+            x="188.350388"
+            y="300"
+            text-anchor="middle"
+            alignment-baseline="middle"
+            fill="#000000"
+            style={{ fontSize: '1.3rem', fontWeight: '700'}}
+        >
+            About
+        </text>
+        <text
+            x="611.649612"
+            y="300"
+            text-anchor="middle"
+            alignment-baseline="middle"
+            fill="#000000"
+            style={{ fontSize: '1.3rem', fontWeight: '700'}}
+        >
+            Experience
+        </text>
       </svg>
     )
 }
