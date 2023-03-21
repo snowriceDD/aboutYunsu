@@ -51,7 +51,7 @@ export const 컨테이너 = 스타일.div`
     height: 100vh;
 
     .eye-styled {
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.1s ease-in-out;
         position: absolute;
         margin: auto;
         width: 60%;

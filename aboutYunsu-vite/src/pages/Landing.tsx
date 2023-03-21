@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { LandingSVG } from "@/assets/LandingSVG";
 import { EyeSVG } from "@/assets/EyeSVG";
 import { 삼눈이 } from "@/components/threeEyes/삼눈이";
+import { NavLink } from "react-router-dom";
 
 export const Landing = () => {
     const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
@@ -25,7 +26,9 @@ export const Landing = () => {
             <S.백그라운드베이스 onMouseMove={handleMouseMove}>
                 <div className="landing_text">Develop + Design</div>
                 <삼눈이 props={eyeballPos}/>
-                <div className="landing_text2">START ↩</div>
+                <NavLink to='/home'>
+                <div className="landing_text2" >START ↩</div>
+                </NavLink> 
             </S.백그라운드베이스>
         </S.그리드컨테이너>
     );
