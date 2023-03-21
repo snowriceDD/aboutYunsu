@@ -6,6 +6,7 @@ export const Container = Style.div`
     width: 100vw;
     height: 5vh;
     justify-content: center;
+    position: fixed;
 `
 
 

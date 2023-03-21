@@ -10,7 +10,7 @@ export const AboutSVG = () => {
         viewBox="0 0 800 600"
         shapeRendering="geometricPrecision"
         textRendering="geometricPrecision"
-        style={{position: 'absolute', zIndex: '1'}}
+        style={{position: 'fixed', zIndex: '1'}}
         // {...props}
       >
         <ellipse
