@@ -46,7 +46,6 @@ export const Container = Style.div`
 
     .second-child-div {
         font-weight: 400;
-        padding-top: 7vh;
         text-align: center;
         font-size: 1.3rem;
         line-height: 2.5;
@@ -56,5 +55,15 @@ export const Container = Style.div`
         .strong {
             font-weight: 700;
         }
+    }
+
+    .img_block {
+        position: relative;
+        display: flex;
+        width: 40%;
+        margin: 0 auto;
+        padding: 30px 0;
+        justify-content: space-evenly;
+        z-index: 5;
     }
 `

@@ -1,6 +1,14 @@
 import { NavbarForAbout } from "@/components/navbar/NavbarForAbout";
 import * as S from '@/components/about/styled';
 import { AboutSVG } from "@/assets/AboutSVG";
+import logo_ai from '@/assets/logo_ai.png';
+import logo_figma from '@/assets/logo_figma.png';
+import logo_gh from '@/assets/logo_gh.png';
+import logo_js from '@/assets/logo_js.png';
+import logo_ps from '@/assets/logo_ps.png';
+import logo_react from '@/assets/logo_react.png';
+import logo_redux from '@/assets/logo_redux.png';
+import logo_ts from '@/assets/logo_ts.png';
 
 export const About = () => {
     return (
@@ -36,6 +44,16 @@ export const About = () => {
             <h2 className="secend-child-h2">
                 Skill
             </h2>
+            <div className="img_block">
+            <img src={logo_js} alt='javascript logo'/>
+            <img src={logo_ts} alt='typescript logo'/>
+            <img src={logo_react} alt='react logo'/>
+            <img src={logo_redux} alt='redux logo'/>
+            <img src={logo_figma} alt='figma logo'/>
+            <img src={logo_gh} alt='github logo'/>
+            <img src={logo_ps} alt='photoshop logo'/>
+            <img src={logo_ai} alt='ai logo'/>
+            </div>
             <div className="second-child-div">
             <strong className="strong">TypeScript, React 등을 활용</strong>한 <strong className="strong">JavaScript 기반 웹 개발</strong>을 하고 있습니다.
                 <br/>
