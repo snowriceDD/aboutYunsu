@@ -42,6 +42,18 @@ export const 백그라운드베이스 = 스타일.div`
         font-size: 1.4rem;
         line-height: 0;
     }
+    .landing_text3 {
+        position: relative;
+        text-align: center;
+        top: 30%;
+        margin: 0 auto;
+        color: white;
+        font-family: 'Kulim Park';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 1rem;
+        line-height: 0;
+    }
 `;
 
 export const 컨테이너 = 스타일.div`

@@ -9,6 +9,7 @@ import logo_ps from '@/assets/logo_ps.png';
 import logo_react from '@/assets/logo_react.png';
 import logo_redux from '@/assets/logo_redux.png';
 import logo_ts from '@/assets/logo_ts.png';
+import { Footer } from '@/components/footer/footer';
 
 export const About = () => {
     return (
@@ -61,9 +62,9 @@ export const About = () => {
                 <br/>
                 <strong className="strong">사용자 경험을 중시</strong>하며, <strong className="strong">사용자의 눈으로 바라보기</strong> 위해 노력합니다.
                 <br/>
-                디자이너, 마케터 직무 경험으로 <strong className="strong">타 직무와 커뮤니케이션 이해관계가 높습니다.</strong>
+                디자이너, 마케터 직무 경험으로 <strong className="strong">타 직무와 커뮤니케이션을 장점으로 합니다.</strong>
             </div>
-            
+            <Footer/>
         </S.Container> 
     );
   };

@@ -2,7 +2,7 @@ import Style from 'styled-components';
 
 export const Container = Style.div`
     width: 100vw;
-    height: 3000px;
+    height: auto;
     background: #8FFF00;
 
     > h2 {
@@ -55,6 +55,7 @@ export const Container = Style.div`
         .strong {
             font-weight: 700;
         }
+        padding-bottom: 30vh;
     }
 
     .img_block {
