@@ -16,16 +16,19 @@ export const About = () => {
         <S.Container>
             <AboutSVG />
             <NavbarForAbout/>
-            <h3>
+            <S.ViewPortBlock>
+            <h3 className="child-h3">
                 세상에 있는 불편함을 해결하고자 산업디자인을 전공했습니다.<br/>
                 사용자 시점에서 고민하는 것을 좋아합니다.<br/>
             </h3>
-            <h2>
+            <h2 className="child-h2">
                 <br/>
                 저는 손에 닿는 서비스를<br/>
                 그리고 손에 닿는 그 어떤 부분도<br/>
                 모나지 않은 서비스를 만드는 것이 목표입니다.
             </h2>
+            </S.ViewPortBlock>
+            <S.ViewPortBlock>
             <h2 className="secend-child-h2">
                 "나만의 도구를 만들어 보자"<br/>
             </h2>
@@ -42,6 +45,8 @@ export const About = () => {
                 <br/>
                 이렇게... 웹 개발에 흥미가 생겼고, 시작하게 되었습니다.
             </div>
+            </S.ViewPortBlock>
+            <S.ViewPortBlock>
             <h2 className="secend-child-h2">
                 Skill
             </h2>
@@ -64,6 +69,7 @@ export const About = () => {
                 <br/>
                 디자이너, 마케터 직무 경험으로 <strong className="strong">타 직무와 커뮤니케이션을 장점으로 합니다.</strong>
             </div>
+            </S.ViewPortBlock>
             <Footer/>
         </S.Container> 
     );

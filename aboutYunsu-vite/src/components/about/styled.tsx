@@ -5,7 +5,7 @@ export const Container = Style.div`
     height: auto;
     background: #8FFF00;
 
-    > h2 {
+    .child-h2 {
         font-weight: 700;
         text-align: center;
         font-size: 1.5rem;
@@ -14,7 +14,7 @@ export const Container = Style.div`
         z-index: 10;
     }
 
-    > h3 {
+    .child-h3 {
         font-weight: 350;
         padding-top: 35vh;
         text-align: center;
@@ -67,4 +67,10 @@ export const Container = Style.div`
         justify-content: space-evenly;
         z-index: 5;
     }
+`
+
+export const ViewPortBlock = Style.a`
+    width: 100vw;
+    height: 100vh;
+
 `
