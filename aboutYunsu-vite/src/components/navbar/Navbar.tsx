@@ -9,13 +9,7 @@ export const Navbar = () => {
   const nonActiveStyle = {
     color: 'rgba(255, 255, 255, 0.4)'
   }
-  const activeStyleInAbout = {
-    color: '1e1e1e'
-  }
-  const nonActiveStyleInAbout = {
-    color: 'rgba(30, 30, 30, 0.41)'
-  }
-
+  
   return (
     <S.Container>
       <S.NavList>

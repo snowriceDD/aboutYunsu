@@ -1,11 +1,21 @@
+import { Footer } from "@/components/footer/footer";
 import { Navbar } from "@/components/navbar/Navbar";
+import { Items } from "@/components/works/Items";
+import * as S from '@/components/works/styled';
 
 export const Works = () => {
     return (
-      <div>
+      <S.Container>
         <Navbar/>
-        <h3>Works</h3>
-      </div>
+        <S.ItemContainer>
+          <Items></Items>
+          <Items></Items>
+          <Items></Items>
+          <Items></Items>
+          <Items></Items>
+        </S.ItemContainer>
+        <Footer/>
+      </S.Container>
     );
   };
   

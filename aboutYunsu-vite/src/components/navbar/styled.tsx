@@ -1,5 +1,4 @@
 import Style from "styled-components";
-import { NavLink } from "react-router-dom";
 
 export const Container = Style.div`
     display: flex;
@@ -7,6 +6,7 @@ export const Container = Style.div`
     height: 5vh;
     justify-content: center;
     position: fixed;
+    top: 10px;
     z-index: 100000000;
 `
 
