@@ -9,6 +9,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 export const Landing = () => {
     const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
     const [eyeballPos, setEyeballPos] = useState({ x: 0, y: 0 }); 
+    const [seconds, setSeconds] = useState(10);
     let navigate = useNavigate();
 
       const handleMouseMove = (e : any) => {
@@ -23,17 +24,22 @@ export const Landing = () => {
       }
 
       useEffect(() => {
-        const timeoutId = setTimeout(() => {
+        if (seconds === 0) {
           navigate('/home');
-        }, 10000)
-        return () => clearTimeout(timeoutId);
-      }, [])
+        }
+  
+        const intervalId = setInterval(() => {
+            setSeconds((seconds) => seconds - 1);
+          }, 1000);
+  
+          return () => clearInterval(intervalId);
+      }, [seconds]);
 
     return (
         <S.그리드컨테이너>
             <S.백그라운드베이스 onMouseMove={handleMouseMove}>
                 <div className="landing_text">Develop + Design</div>
-                <div className="landing_text3">10초 후 home으로 이동합니다.</div>
+                <div className="landing_text3">{seconds}초 후 home으로 이동합니다.</div>
                 <삼눈이 props={eyeballPos}/>
                 <NavLink to='/home'>
                 <div className="landing_text2" >START ↩</div>
