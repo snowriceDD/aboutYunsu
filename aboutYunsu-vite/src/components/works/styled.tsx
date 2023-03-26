@@ -66,5 +66,7 @@ export const ItemsCard = Style.div`
     .subTitle {
         grid-area: subTitle;
         margin: 0 5px;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.5);
     }
 `
