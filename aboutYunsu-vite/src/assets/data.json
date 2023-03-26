@@ -1,0 +1,44 @@
+[
+    {
+        "categories": "string",
+        "imgSrc": "string",
+        "tagName": "string",
+        "mainTitle": "string",
+        "subTitle": "string"
+    },
+    {
+        "categories": "string",
+        "imgSrc": "string",
+        "tagName": "string",
+        "mainTitle": "string",
+        "subTitle": "string"
+    },
+    {
+        "categories": "string",
+        "imgSrc": "string",
+        "tagName": "string",
+        "mainTitle": "string",
+        "subTitle": "string"
+    },
+    {
+        "categories": "string",
+        "imgSrc": "string",
+        "tagName": "string",
+        "mainTitle": "string",
+        "subTitle": "string"
+    },
+    {
+        "categories": "string",
+        "imgSrc": "string",
+        "tagName": "string",
+        "mainTitle": "string",
+        "subTitle": "string"
+    },
+    {
+        "categories": "string",
+        "imgSrc": "string",
+        "tagName": "string",
+        "mainTitle": "string",
+        "subTitle": "string"
+    }
+]

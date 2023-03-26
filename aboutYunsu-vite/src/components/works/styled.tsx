@@ -7,10 +7,10 @@ export const Container = Style.div`
 
 export const ItemContainer = Style.div`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    gap: 10px;
-    width: 60vw;
+    gap: 20px;
+    width: 40vw;
     min-width: 360px;
     height: auto;
     margin: 100px auto;
@@ -19,12 +19,10 @@ export const ItemContainer = Style.div`
 export const ItemsCard = Style.div`
     width: 100%;
     height: 300px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 0.5fr 5fr 0.5fr repeat(2, 1fr); 
-    gap: 10px 10px; 
+    grid-template-columns: auto; 
+    grid-template-rows: 0.5fr 5fr 0.5fr 0.5fr 1fr; 
+    gap: 7px 10px; 
     grid-template-areas: 
     "cardHeader cardHeader cardHeader cardHeader cardHeader"
     "imgPlace imgPlace imgPlace imgPlace imgPlace"
@@ -32,21 +30,41 @@ export const ItemsCard = Style.div`
     "mainTitle mainTitle mainTitle mainTitle mainTitle"
     "subTitle subTitle subTitle subTitle subTitle"; 
     color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
 
     .cardHeader {
         grid-area: cardHeader;
-        color: #8FFF00;
+        color: #599e00;
+        margin: 5px 5px;
+        letter-spacing: 0.1em;
+        font-size: 0.8rem;
+        font-weight: 400;
       }
     .imgPlace {
+        width: 100%;
+        height: auto;
         grid-area: imgPlace;
+        overflow: hidden;
     }
     .tag {
-        grid-area: tag;
+        // grid-area: tag;
+        display: inline-block;
+        border: 1px solid #599e00;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 3px 5px 1px 5px;
+        font-size: 0.7rem;
+        margin: 0 5px;
+        color: #599e00;
     }
     .mainTitle {
         grid-area: mainTitle;
+        font-weight: 700;
+        margin: 0 5px;
     }
     .subTitle {
-        grid-area: subTitle
+        grid-area: subTitle;
+        margin: 0 5px;
     }
 `
