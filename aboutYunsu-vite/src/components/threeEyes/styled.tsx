@@ -68,6 +68,10 @@ export const 컨테이너 = 스타일.div`
         margin: auto;
         width: 60%;
     }
+
+    ellipse:hover {
+        fill: #ffffff;
+    }
 `;
 
 export const 타원_형광 = 스타일.div`
