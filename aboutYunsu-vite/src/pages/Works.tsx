@@ -17,7 +17,7 @@ interface Props extends ItemsParams {
   }[];
 }
 
-export const Works = (props:Props) => {
+export const Works = () => {
   
     return (
       <S.Container>

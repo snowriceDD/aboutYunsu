@@ -1,7 +1,5 @@
-import { LandingSVG } from "@/assets/LandingSVG";
 import { HomeSVG } from '@/assets/HomeSVG';
 import * as S from "@/components/threeEyes/styled";
-import { useState, useEffect, useRef } from "react";
 
 export const Home = () => {
   return (

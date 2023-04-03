@@ -22,7 +22,7 @@ export const HomeSVG = () => {
           fill="none"
           stroke="#8fff00"
         />
-        <ellipse onClick={()=>navigate('/experience')} style={{cursor: "pointer"}}
+        <ellipse onClick={()=>navigate('/market')} style={{cursor: "pointer"}}
           rx={133.666459}
           ry={221.736414}
           transform="matrix(.374686 0.374686-.374686 0.374686 611.649612 300)"
@@ -68,7 +68,7 @@ export const HomeSVG = () => {
             fill="#000000"
             style={{ fontSize: '1.3rem', fontWeight: '700'}}
         >
-            Experience
+            Market
         </text>
       </svg>
     )

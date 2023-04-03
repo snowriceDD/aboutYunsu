@@ -1,10 +1,10 @@
 import { Navbar } from "@/components/navbar/Navbar";
 
-export const Experience = () => {
+export const Market = () => {
     return (
       <div>
         <Navbar/>
-        <h3>Experience</h3>
+        <h3>Market</h3>
       </div>
     );
   };

@@ -30,10 +30,10 @@ export const NavbarForAbout = () => {
       </S.NavList>
       <S.NavList>
         <NavLink
-            to='/experience'
+            to='/market'
             style={({isActive}) => isActive ? activeStyleInAbout : nonActiveStyleInAbout}
           >
-            Experience
+            Market
         </NavLink>
       </S.NavList>
     </S.Container>
