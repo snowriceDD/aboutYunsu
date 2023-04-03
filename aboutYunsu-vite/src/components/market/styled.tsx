@@ -18,20 +18,25 @@ export const Container = Style.div`
     background: #D9D9D9;
     border-radius: 15px;
     margin: 100px auto;
+    padding: 10px;
 
     .imgTag {
         grid-area: img;
-        width: 100%;
+        max-width: 100%;
         max-height: 100%;
     }
 
     .title {
         grid-area: title;
-
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-decoration-line: underline;
     }
 
     .subTitle {
         grid-area: subTitle;
+        font-weight: 300;
+        font-size: 1rem;
     }
 
     .tagZone {

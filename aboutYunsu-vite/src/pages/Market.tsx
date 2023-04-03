@@ -11,10 +11,10 @@ export const Market = () => {
           <div className="subTitle">Web Front-end Dev YS.Kim 2022</div>
           <div className="tagZone">tag1 tag2</div>
           <div className="recentPrice">최근 거래가 : </div>
-          <button className="button1"></button>
-          <button className="button2"></button>
-          <button className="coffee"></button>
-          <div className="details"></div>
+          <button className="button1">고용 입찰</button>
+          <button className="button2">즉시 고용</button>
+          <button className="coffee">커피챗 하기</button>
+          <div className="details">제품 설명</div>
         </Container>
       </div>
     );
