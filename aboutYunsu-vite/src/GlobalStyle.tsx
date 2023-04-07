@@ -62,4 +62,10 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: #1e1e1e;
   }
+  button {
+    all: unset;
+    cursor: pointer;
+
+    
+  }
 `;

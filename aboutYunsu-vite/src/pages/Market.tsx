@@ -1,3 +1,4 @@
+import { ShareSVG } from "@/assets/ShareSVG";
 import { Container } from "@/components/market/styled";
 import { Navbar } from "@/components/navbar/Navbar";
 
@@ -7,6 +8,7 @@ export const Market = () => {
         <Navbar/>
         <Container>
           <img className="imgTag" src="src/assets/profile.png" />
+          <ShareSVG/>
           <div className="title">Kim Yunsu</div>
           <div className="subTitle">Web Front-end Dev YS.Kim 2022</div>
           <div className="tagZone">tag1 tag2</div>
