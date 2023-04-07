@@ -11,7 +11,15 @@ export const Market = () => {
           <ShareSVG/>
           <div className="title">Kim Yunsu</div>
           <div className="subTitle">Web Front-end Dev YS.Kim 2022</div>
-          <div className="tagZone">tag1 tag2</div>
+          <div className="tagZone">
+            <a>Typescript</a>
+            <a>React.js</a>
+            <a>Redux</a>
+            <a>Javascript</a>
+            <a>Styled-Components</a>
+            <a>Git</a>
+            <a>Figma</a>
+          </div>
           <div className="recentPrice">최근 거래가 : </div>
           <button className="button1">고용 입찰</button>
           <button className="button2">즉시 고용</button>

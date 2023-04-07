@@ -51,10 +51,22 @@ export const Container = Style.div`
 
     .tagZone {
         grid-area: tagZone;
+        word-wrap: break-word;
+        line-height: 1.6;
+        a {
+            color: #1e1e1e;
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-right: 5px;
+            padding: 1px 10px;
+            border-radius: 15px;
+            background: rgb(217 217 217 / 50%);
+        }
     }
 
     .recentPrice {
         grid-area: recentPrice;
+        font-size: 0.9rem;
     }
 
     .button1 {
