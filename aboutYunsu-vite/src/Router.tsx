@@ -5,6 +5,7 @@ import { Landing } from "@/pages/Landing";
 import { About } from "@/pages/About";
 import { Works } from "@/pages/Works";
 import { Market } from "@/pages/Market";
+import { SendingEmail } from "@/pages/SendingEmail";
 
 export const Router = () => {
   return (
@@ -15,6 +16,7 @@ export const Router = () => {
         <Route path="/about" element={<About />} />
         <Route path="/works" element={<Works />} />
         <Route path="/market" element={<Market />} />
+        <Route path="/sendoffer" element={<SendingEmail />} />
       </Routes>
     </BrowserRouter>
   );

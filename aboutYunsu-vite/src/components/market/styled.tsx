@@ -1,6 +1,7 @@
 import Style from "styled-components";
 
 export const Container = Style.div`
+{ 
     display: grid; 
     grid-template-columns: 3fr 1.4fr 1fr 0.4fr; 
     grid-template-rows: 0.4fr 0.3fr 1fr auto 0.8fr 0.8fr 3.2fr; 
@@ -104,5 +105,5 @@ export const Container = Style.div`
 
     .details {
         grid-area: details;
-    }
+    }}
 `;

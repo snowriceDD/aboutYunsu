@@ -6,7 +6,7 @@ export const Market = () => {
     return (
       <div>
         <Navbar/>
-        <Container>
+        <Container className="market">
           <img className="imgTag" src="src/assets/profile.png" />
           <ShareSVG/>
           <div className="title">Kim Yunsu</div>
