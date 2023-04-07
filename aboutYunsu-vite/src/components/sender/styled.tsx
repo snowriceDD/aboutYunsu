@@ -1,7 +1,10 @@
 import Style from "styled-components";
 
 export const Container = Style.div`
-    .form { 
+font-size: 1rem;
+font-weight: 400;
+
+.form { 
     display: flex;
     flex-direction: column;
     width: auto;
@@ -12,13 +15,21 @@ export const Container = Style.div`
     margin: 100px auto;
     padding: 10px;
     color: #ffffff;
-
 }
+
 .title { 
     display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
  }
+input {
+    background: #D9D9D9;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0, 0);
+}
 
  .grid1 {
+    margin-top: 15px;
     display: grid;
     grid-auto-columns: 1fr; 
     grid-template-columns: repeat(2, 1fr); 
@@ -26,6 +37,11 @@ export const Container = Style.div`
     gap: 10px 10px; 
     grid-template-areas: 
         "name1 name2";
+
+    input {
+        margin-top: 5px;
+        height: 30px;
+    }
     .name { 
         display: grid;
         grid-area: name1;
@@ -36,6 +52,7 @@ export const Container = Style.div`
     }
  }
  .grid2 {
+    margin-top: 15px;
     display: grid;
     grid-auto-columns: 1fr; 
     grid-template-columns: repeat(2, 1fr); 
@@ -43,6 +60,11 @@ export const Container = Style.div`
     gap: 10px 10px; 
     grid-template-areas: 
         "name1 name2";
+
+    input {
+        margin-top: 5px;
+        height: 30px;
+    }
     .name3 { 
         display: grid;
         grid-area: name1; 
@@ -53,26 +75,39 @@ export const Container = Style.div`
     }
  }
 
-.name3 { display: contents; }
-.name4 { display: contents; }
-.position { grid-area: position; }
-.howmoney { display: contents; }
+.position { 
+    display: grid;
+    margin-top: 15px;
+    form {
+        margin-top: 5px;
+    }
+}
+.howmoney { 
+    display: grid;
+    margin-top: 15px;
+}
 .moneyCount { 
     display: block; 
     align-self: center;
+    margin-top: 5px;
 }
 .contentsTitle { 
     display: contents; 
     input {
         width: auto;
-        height: 20%;
+        height: 30%;
+        margin-top: 5px;
     }
+    margin-top: 15px;
 }
-.submit { 
+.submit {
+    margin-top: 15px;
     align-self: end;
-    width: 100px;
-    height: 40px;
-    
+    width: 200px;
+    height: 60px;
+    background: #000000;
+    border-radius: 10px;
+    color: #ffffff;
 }
 
 `;
