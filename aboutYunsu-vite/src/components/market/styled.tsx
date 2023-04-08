@@ -75,7 +75,9 @@ export const Container = Style.div`
         color: #ffffff;
         background: #000000;
         border-radius: 5px;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         :hover {
             background: rgb(0 0 0 / 70%)
         }
@@ -86,7 +88,9 @@ export const Container = Style.div`
         color: #ffffff;
         background: #000000;
         border-radius: 5px;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         :hover {
             background: rgb(0 0 0 / 70%)
         }
@@ -97,7 +101,9 @@ export const Container = Style.div`
         background: none;
         border: 1px solid black;
         border-radius: 5px;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         :hover {
             background: rgb(0 0 0 / 10%)
         }

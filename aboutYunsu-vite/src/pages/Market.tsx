@@ -1,6 +1,7 @@
 import { ShareSVG } from "@/assets/ShareSVG";
 import { Container } from "@/components/market/styled";
 import { Navbar } from "@/components/navbar/Navbar";
+import { NavLink } from "react-router-dom";
 
 export const Market = () => {
     return (
@@ -21,9 +22,15 @@ export const Market = () => {
             <a>Figma</a>
           </div>
           <div className="recentPrice">최근 거래가 : </div>
-          <button className="button1">고용 입찰</button>
-          <button className="button2">즉시 고용</button>
-          <button className="coffee">커피챗 하기</button>
+          <NavLink to='/sendoffer' className="button1">
+            고용 입찰
+          </NavLink>
+          <NavLink to='/sendoffer' className="button2">
+            즉시 고용
+          </NavLink>
+          <NavLink to='/sendoffer' className="coffee">
+            커피챗 하기
+          </NavLink>
           <div className="details">제품 설명</div>
         </Container>
       </div>

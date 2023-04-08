@@ -9,7 +9,7 @@ font-weight: 400;
     flex-direction: column;
     width: auto;
     max-width: 720px;
-    height: 500px;
+    height: 550px;
     background: rgba(217, 217, 217, 0.1);
     border-radius: 15px;
     margin: 100px auto;
@@ -32,7 +32,7 @@ input {
     margin-top: 15px;
     display: grid;
     grid-auto-columns: 1fr; 
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: 0.6fr 0.4fr; 
     grid-template-rows: 1fr; 
     gap: 10px 10px; 
     grid-template-areas: 
@@ -40,7 +40,7 @@ input {
 
     input {
         margin-top: 5px;
-        height: 30px;
+        height: 35px;
     }
     .name { 
         display: grid;
@@ -55,7 +55,7 @@ input {
     margin-top: 15px;
     display: grid;
     grid-auto-columns: 1fr; 
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: 0.6fr 0.4fr;
     grid-template-rows: 1fr; 
     gap: 10px 10px; 
     grid-template-areas: 
@@ -63,7 +63,7 @@ input {
 
     input {
         margin-top: 5px;
-        height: 30px;
+        height: 35px;
     }
     .name3 { 
         display: grid;
@@ -85,11 +85,15 @@ input {
 .howmoney { 
     display: grid;
     margin-top: 15px;
+
 }
 .moneyCount { 
     display: block; 
     align-self: center;
     margin-top: 5px;
+    font-weight: 700;
+    font-size: 1.2rem;
+
 }
 .contentsTitle { 
     display: contents; 
@@ -108,6 +112,12 @@ input {
     background: #000000;
     border-radius: 10px;
     color: #ffffff;
+    cursor: pointer;
 }
-
+.afterSubmit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
 `;
