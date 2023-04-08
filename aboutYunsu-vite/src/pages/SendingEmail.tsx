@@ -23,7 +23,7 @@ export const SendingEmail = () => {
               .then((result) => {
                 console.log(result.text);
                 setSubmitStatus(true);
-                navigate('/home');
+                navigate('/market');
               }, (error) => {
                 console.log(error.text);
               });

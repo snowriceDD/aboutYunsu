@@ -113,6 +113,10 @@ input {
     border-radius: 10px;
     color: #ffffff;
     cursor: pointer;
+
+    :hover {
+        border: 1px solid rgb(100 100 100);
+    }
 }
 .afterSubmit {
     display: flex;
