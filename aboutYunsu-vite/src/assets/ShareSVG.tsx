@@ -1,4 +1,9 @@
-export const ShareSVG = () => (
+interface SvgProps {
+  onClick: () => void;
+}
+
+export const ShareSVG = ({ onClick }: SvgProps) => (
+
   <svg
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
@@ -9,6 +14,7 @@ export const ShareSVG = () => (
     enableBackground="new 0 0 64 64"
     xmlSpace="preserve"
     className="share"
+    onClick={onClick}
   >
     <circle
       fill="none"
