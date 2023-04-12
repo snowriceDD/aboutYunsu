@@ -16,7 +16,7 @@ export const Container = Style.div`
 
     .child-h3 {
         font-weight: 350;
-        padding-top: 35vh;
+        // padding-top: 35vh;
         text-align: center;
         font-size: 1.5rem;
         line-height: 1.3;
@@ -25,7 +25,6 @@ export const Container = Style.div`
     }
 
     .secend-child-h2 {
-        padding-top: 50vh;
         font-weight: 700;
         text-align: center;
         font-size: 1.5rem;
@@ -36,7 +35,6 @@ export const Container = Style.div`
     
     .first-child-div {
         font-weight: 350;
-        padding-top: 7vh;
         text-align: center;
         font-size: 1.1rem;
         line-height: 1.3;
@@ -55,7 +53,6 @@ export const Container = Style.div`
         .strong {
             font-weight: 700;
         }
-        padding-bottom: 30vh;
     }
 
     .img_block {
@@ -63,14 +60,15 @@ export const Container = Style.div`
         display: flex;
         width: 40%;
         margin: 0 auto;
-        padding: 30px 0;
         justify-content: space-evenly;
         z-index: 5;
     }
 `
 
 export const ViewPortBlock = Style.a`
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-
 `

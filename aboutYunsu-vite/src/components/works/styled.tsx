@@ -43,6 +43,7 @@ export const ItemsCard = Style.div`
       }
     .imgPlace {
         width: 100%;
+        max-width: 360px;
         height: auto;
         grid-area: imgPlace;
         overflow: hidden;
