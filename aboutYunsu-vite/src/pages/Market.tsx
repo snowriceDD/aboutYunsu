@@ -38,6 +38,7 @@ export const Market = () => {
             커피챗 하기
           </NavLink>
           <div className="details">제품 설명</div>
+          <div className="details_contents"> 안녕하세요. 웹 프론트엔드 개발자 김윤수입니다. </div>
         </Container>
       </div>
     );

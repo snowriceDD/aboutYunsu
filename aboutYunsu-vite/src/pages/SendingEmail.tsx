@@ -10,16 +10,14 @@ export const SendingEmail = () => {
     const navigate = useNavigate();
     const [range, setRange] = useState('2800');
     const [submitStatus, setSubmitStatus] = useState(false);
-    const apiKey = 'P7XiWSzZBIelbhYZ8';
-    const svcKey = 'service_uwz0sdp';
-    // const apiKey = process.env.NEXT_PUBLIC_EMAILJS_KEY  || 'P7XiWSzZBIelbhYZ8';
-    // const svcKey = process.env.NEXT_PUBLIC_SERVICE_KEY  || 'service_uwz0sdp';
+    const apiKey = process.env.NEXT_PUBLIC_EMAILJS_KEY;
+    const svcKey = process.env.NEXT_PUBLIC_SERVICE_KEY;
 
-    const sendEmail = (e:any) => {
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
     
         if (formRef.current) {
-            emailjs.sendForm(svcKey, 'template_rraim77', formRef.current, apiKey)
+            emailjs.sendForm(svcKey ? svcKey : '', 'template_rraim77', formRef.current, apiKey)
               .then((result) => {
                 console.log(result.text);
                 setSubmitStatus(true);
@@ -32,7 +30,7 @@ export const SendingEmail = () => {
     
 
 
-    const rangeCurrent = (e: any) => {
+    const rangeCurrent = (e: React.MouseEvent<HTMLInputElement> | React.TouchEvent<HTMLInputElement>) => {
         e.preventDefault();
 
         if (rangeRef.current) {
