@@ -9,10 +9,8 @@ export const Sending = (props:any) => {
     const rangeRef = useRef<HTMLInputElement | null>(null);
     const navigate = useNavigate();
     const [range, setRange] = useState('2800');
-    // const apiKey = process.env.NEXT_PUBLIC_EMAILJS_KEY;
-    // const svcKey = process.env.NEXT_PUBLIC_SERVICE_KEY;
-    const apiKey = 'P7XiWSzZBIelbhYZ8';
-    const svcKey = 'service_uwz0sdp';
+    const apiKey = process.env.NEXT_PUBLIC_EMAILJS_KEY;
+    const svcKey = process.env.NEXT_PUBLIC_SERVICE_KEY;
     let submitStatus = false;
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
