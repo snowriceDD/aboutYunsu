@@ -2,6 +2,7 @@ import { ShareSVG } from "@/assets/ShareSVG";
 import { Container } from "@/components/market/styled";
 import { Navbar } from "@/components/navbar/Navbar";
 import { NavLink } from "react-router-dom";
+import profile from '@/assets/profile.png';
 import { useState } from 'react';
 
 export const Market = () => {
@@ -14,7 +15,7 @@ export const Market = () => {
       <div>
         <Navbar/>
         <Container className="market">
-          <img className="imgTag" src="src/assets/profile.png" />
+          <img className="imgTag" src={profile} />
           <ShareSVG onClick={handleCopyClick}/>
           <div className="title">Kim Yunsu</div>
           <div className="subTitle">Web Front-end Dev YS.Kim 2022</div>
