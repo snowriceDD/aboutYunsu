@@ -4,6 +4,20 @@ export const Container = Style.div`
 font-size: 1rem;
 font-weight: 400;
 
+.form2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 720px;
+    height: 300px;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 15px;
+    margin: 100px auto;
+    padding: 10px;
+    color: #ffffff;
+    justify-content: center;
+}
+
 .form { 
     display: flex;
     flex-direction: column;
