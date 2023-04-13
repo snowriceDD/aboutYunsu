@@ -116,7 +116,6 @@ export const Container = Style.div`
         flex-direction: column;
         img {
             width: 100%;
-            margin-top: 10px;
         }
     }}
 `;

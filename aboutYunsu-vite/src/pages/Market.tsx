@@ -4,7 +4,7 @@ import { Navbar } from "@/components/navbar/Navbar";
 import { NavLink } from "react-router-dom";
 import profile from '@/assets/profile.png';
 import resume from '@/assets/resume.png';
-
+import { useState } from 'react';
 
 export const Market = () => {
     const handleCopyClick = () => {
