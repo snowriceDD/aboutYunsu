@@ -3,6 +3,7 @@ import { Container } from "@/components/market/styled";
 import { Navbar } from "@/components/navbar/Navbar";
 import { NavLink } from "react-router-dom";
 import profile from '@/assets/profile.png';
+import resume from '@/assets/resume.png';
 import { useState } from 'react';
 
 export const Market = () => {
@@ -15,7 +16,7 @@ export const Market = () => {
       <div>
         <Navbar/>
         <Container className="market">
-          <img className="imgTag" src={profile} />
+          <img className="imgTag" src={profile} alt="프로필 이미지"/>
           <ShareSVG onClick={handleCopyClick}/>
           <div className="title">Kim Yunsu</div>
           <div className="subTitle">Web Front-end Dev YS.Kim 2022</div>
@@ -38,8 +39,9 @@ export const Market = () => {
           <NavLink to='/sendoffer' className="coffee">
             커피챗 하기
           </NavLink>
-          <div className="details">제품 설명</div>
-          <div className="details_contents"> 안녕하세요. 웹 프론트엔드 개발자 김윤수입니다. </div>
+          <div className="details">제품 설명
+            <img src={resume} alt="웹 프론트엔드 개발자 김윤수 이력서"/>
+          </div>
         </Container>
       </div>
     );

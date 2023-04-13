@@ -4,7 +4,7 @@ export const Container = Style.div`
 { 
     display: grid; 
     grid-template-columns: 3fr 1.4fr 1fr 0.4fr; 
-    grid-template-rows: 0.4fr 0.3fr 1fr auto 0.8fr 0.8fr 3.2fr; 
+    grid-template-rows: 0.4fr 0.3fr 1fr auto 0.8fr 0.8fr auto; 
     gap: 10px 10px; 
     grid-template-areas: 
         "img title title share"
@@ -15,8 +15,8 @@ export const Container = Style.div`
         "img coffee coffee coffee"
         "details details details details"; 
     width: auto;
-    max-width: 720px;
-    height: 500px;
+    max-width: 620px;
+    height: auto;
     background: rgba(217, 217, 217, 0.1);
     border-radius: 15px;
     margin: 100px auto;
@@ -110,6 +110,12 @@ export const Container = Style.div`
     }
 
     .details {
+        margin-top: 20px;
         grid-area: details;
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 100%;
+        }
     }}
 `;
