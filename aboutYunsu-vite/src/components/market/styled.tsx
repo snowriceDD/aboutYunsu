@@ -23,6 +23,9 @@ export const Container = Style.div`
     padding: 10px;
     color: #ffffff;
 
+    img {
+        border-radius: 10px;
+    }
     .imgTag {
         grid-area: img;
         max-width: 100%;
