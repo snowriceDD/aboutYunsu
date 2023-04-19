@@ -18,10 +18,10 @@ export const ItemContainer = Style.div`
 
 export const ItemsCard = Style.div`
     width: 100%;
-    height: 300px;
     display: grid; 
     grid-template-columns: auto; 
-    grid-template-rows: 0.5fr 5fr 0.5fr 0.5fr 1fr; 
+    // grid-template-rows: 0.5fr 5fr 0.5fr 0.5fr 1fr; 
+    grid-template-rows: auto; 
     gap: 7px 10px; 
     grid-template-areas: 
     "cardHeader cardHeader cardHeader cardHeader cardHeader"
