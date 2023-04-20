@@ -1,44 +1,47 @@
 [
     {
         "categories": "web service",
-        "imgSrc": "string",
+        "imgSrc": "src/assets/img_wc.png",
         "tagName": "community",
         "mainTitle": "WeChing :: 우리 모두의 칭찬 타임",
-        "subTitle": "랜덤 매칭 칭찬 플랫폼"
+        "subTitle": "랜덤 매칭 칭찬 플랫폼",
+        "github": "https://github.com/we-ching",
+        "link": "http://ec2-3-35-65-74.ap-northeast-2.compute.amazonaws.com/"
     },
     {
         "categories": "web site",
-        "imgSrc": "string",
+        "imgSrc": "src/assets/img_celev.png",
         "tagName": "e-commerce",
         "mainTitle": "ce1ev. :: 셀럽들의 픽, 쇼핑몰",
-        "subTitle": "셀럽들이 착용한 의상들을 기준으로 소비자에게 착용 정보 제공 및 상품을 판매하는 쇼핑몰 서비스 프로젝트."
+        "subTitle": "셀럽들이 착용한 의상들을 기준으로 소비자에게 착용 정보 제공 및 상품을 판매하는 쇼핑몰 서비스 프로젝트.",
+        "github": "https://github.com/snowriceDD/ce1ev-1",
+        "link": "string"
     },
     {
         "categories": "web site",
-        "imgSrc": "string",
+        "imgSrc": "src/assets/img_aY.png",
         "tagName": "portfolio",
         "mainTitle": "About Yunsu :: 포트폴리오",
-        "subTitle": "자기소개용으로 제작한 포트폴리오 웹입니다."
+        "subTitle": "자기소개용으로 제작한 포트폴리오 웹입니다.",
+        "github": "https://github.com/we-ching",
+        "link": "https://about-yunsu.vercel.app/"
     },
     {
         "categories": "IT service plan",
-        "imgSrc": "string",
+        "imgSrc": "src/assets/img_tx.png",
         "tagName": "plan",
         "mainTitle": "IT서비스 기획 - 벤치마킹 제안서",
-        "subTitle": "Toss to users in a diner - 외식업 재고 소진 촉진 서비스"
-    },
-    {
-        "categories": "string",
-        "imgSrc": "string",
-        "tagName": "string",
-        "mainTitle": "string",
-        "subTitle": "string"
+        "subTitle": "Toss to users in a diner - 외식업 재고 소진 촉진 서비스",
+        "github": "https://github.com/snowriceDD/Toxx_To_User-docs",
+        "link": "string"
     },
     {
         "categories": "application",
-        "imgSrc": "string",
+        "imgSrc": "src/assets/img_bobb.png",
         "tagName": "Not implemented",
         "mainTitle": "밥또감 :: 위치 기반 로컬 맛집 공유 플랫폼",
-        "subTitle": "지역 상생을 목적으로 하는 로컬 맛집 공유 플랫폼"
+        "subTitle": "지역 상생을 목적으로 하는 로컬 맛집 공유 플랫폼",
+        "github": "string",
+        "link": "string"
     }
 ]
