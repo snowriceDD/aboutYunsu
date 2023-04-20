@@ -6,16 +6,16 @@ import {ItemsParams} from '@/components/works/Items';
 import propsData from '@/assets/data.json';
 import { useEffect } from "react";
 
-interface Props extends ItemsParams {
-  map(arg0: (data: any) => any): import("react").ReactNode;
-  data: {
-    categories: string;
-    imgSrc: string;
-    tagName: string;
-    mainTitle: string;
-    subTitle: string;
-  }[];
-}
+// interface Props extends ItemsParams {
+//   map(arg0: (data: any) => any): import("react").ReactNode;
+//   data: {
+//     categories: string;
+//     imgSrc: string;
+//     tagName: string;
+//     mainTitle: string;
+//     subTitle: string;
+//   }[];
+// }
 
 export const Works = () => {
   
