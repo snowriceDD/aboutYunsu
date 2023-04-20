@@ -1,7 +1,7 @@
 [
     {
         "categories": "web service",
-        "imgSrc": "src/assets/img_wc.png",
+        "imgSrc": "@/assets/img_wc.png",
         "tagName": "community",
         "mainTitle": "WeChing :: 우리 모두의 칭찬 타임",
         "subTitle": "랜덤 매칭 칭찬 플랫폼",
